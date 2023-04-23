@@ -2,13 +2,13 @@
 
 /**
  * is_printable - Evaluates if a char is printable
- * @c: Char to be evaluated.
+ * @a: Char to be evaluated.
  *
- * Return: 1 if c is printable, 0 otherwise
+ * Return: 1 if a is printable, 0 otherwise
  */
-int is_printable(char c)
+int is_printable(char a)
 {
-	if (c >= 32 && c < 127)
+	if (a >= 32 && a < 127)
 		return (1);
 
 	return (0);
@@ -39,13 +39,13 @@ int append_hexa_code(char ascii_code, char buffer[], int i)
 
 /**
  * is_digit - Verifies if a char is a digit
- * @c: Char to be evaluated
+ * @a: Char to be evaluated
  *
- * Return: 1 if c is a digit, 0 otherwise
+ * Return: 1 if a is a digit, 0 otherwise
  */
-int is_digit(char c)
+int is_digit(char a)
 {
-	if (c >= '0' && c <= '9')
+	if (a >= '0' && a <= '9')
 		return (1);
 
 	return (0);
